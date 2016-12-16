@@ -1,11 +1,13 @@
 ---
 title: 'Hello Hexo'
 date: 2016-12-16 18:25:35
-tags:
+tags: words
 ---
 
 
 * HEXO
-* THIS IS A FANTASTIC WEB TOOL
+
+* THIS IS A FANTASTIC PERSONAL WEB
+
 * I LOVE IT
 
