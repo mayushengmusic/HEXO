@@ -74,3 +74,5 @@ theme: landscape
 deploy:
   type: 
 
+#Disqus
+disqus_shortname: mayushengmusic
