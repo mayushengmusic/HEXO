@@ -7,7 +7,7 @@ title: Mars-Blog
 subtitle: I AM BACK AGAIN
 description: this is a hexo-website
 author: jaken
-language: zh-CN
+language: zh-Hans
 timezone: Asia/shanghai
 
 # URL
@@ -38,7 +38,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: false
   auto_detect: false
   tab_replace:
@@ -68,7 +68,7 @@ plugins:
 
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -78,3 +78,4 @@ deploy:
 #Disqus
 disqus_shortname: mayushengmusic
 
+avatar: /image/me.png

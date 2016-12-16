@@ -9,7 +9,7 @@ boost兼容linux，mac，windows三大操作系统。
 
 * 解压安装包
   
-  ```tar -jxvf boost_1_62_0.tar.bz2```
+<code>tar -jxvf boost_1_62_0.tar.bz2
 
 * 检查环境
 
