@@ -62,9 +62,10 @@ pagination_dir: page
 
 # Extensions
 plugins:
-  hexo-generator-feed
-  hexo-generator-sitemap
- 
+ hexo-generator-sitemap
+ hexo-generator-feed
+ hexo-generator-baidu-sitemap
+
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
@@ -76,3 +77,4 @@ deploy:
 
 #Disqus
 disqus_shortname: mayushengmusic
+
