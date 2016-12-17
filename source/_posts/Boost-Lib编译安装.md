@@ -24,7 +24,7 @@ boost兼容linux，mac，windows三大操作系统。
 ```sudo ./b2 install ``` 一定要root权限才能install
 
 
-![boost](http://p1.bqimg.com/567571/a9fdaf36b261f1a8.png)
+![boost](https://p1.bqimg.com/567571/a9fdaf36b261f1a8.png)
 
   
   
