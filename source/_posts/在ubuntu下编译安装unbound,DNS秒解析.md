@@ -12,47 +12,47 @@ unbound是一款可以媲美BIND的DNS服务软件。它配置简单，稳定，
 
 (本文指令皆以root权限进行，如果没有root账号权限，请sudo）
 
-```apt-get update```
+``` apt-get update ```
 
 接下来，我们其实就可以安装Ubuntu软件源提供的unbound，但是为了提高性能，我们决定自己编译安装，这样既能用上最新版本，同时，还可以在编译时候设置一些参数，来提高性能！
 
 接下来，配置unbound编译环境，借助强大的apt-get，我们一个指令就可以搞定！
 
-```apt-get build-dep unbound```
+``` apt-get build-dep unbound ```
 
 执行过程中，你可以有空闲去喝杯咖啡！
 
 一切进行顺利的话，我们就可以开始获取unbound最新包了！
 
-```wget http://www.unbound.net/downloads/unbound-latest.tar.gz```
+``` wget http://www.unbound.net/downloads/unbound-latest.tar.gz ```
 
 然后解压该文件
 
-```tar zxvf unbound-latest.tar.gz```
+``` tar zxvf unbound-latest.tar.gz ```
 
 ok接下来进入unbond-latest文件目录，执行以下指令
 
-```cd unbound-latest```
+``` cd unbound-latest ```
 
-```./configure --prefix=/usr --sysconfdir=/etc --disable-rpath --with-pidfile=/var/run/unbound.pid --with-libevent```
+``` ./configure --prefix=/usr --sysconfdir=/etc --disable-rpath --with-pidfile=/var/run/unbound.pid --with-libevent ```
 
 libevent是我们最需要的，因为它可以极大的提高unbound事件处理性能！
 
 接下来执行安装
 
-```make && make install```
+``` make && make install ```
 
 执行完毕，主机就已经安装了unbound了。先不要着急启动它，我们还需要配置文件
 
 首先，执行以下指令
 
-```unbound-control-setup```
+``` unbound-control-setup ```
 
 生成控制密钥
 
 接下来进入unbound配置目录
 
-```cd /etc/unbound```
+``` cd /etc/unbound ```
 
 在此，本人祭出我自己的配置文件，大家可供参考！
 ```
@@ -128,21 +128,21 @@ forward-addr: 208.67.220.222
 
 还不要着急运行unbound，我们还需要添加unbound用户。
 
-```groupadd unbound```
+``` groupadd unbound ```
 
-```useradd -m -g unbound -s /bin/false unbound```
+``` useradd -m -g unbound -s /bin/false unbound ```
 
 OK，接下来，还可以借助unbound-checkconf检查一下配置文件。
 
-```unbound-checkconf```
+``` unbound-checkconf ```
 
 如果一切无误。就可以启动unbound啦！
 
-```unbound```
+``` unbound ```
 
 如果没有报错，就可以用上unbound作为本地dns了，如果在局域网中做dns中，可以感受到dns缓存所带来的速度提升感，在UNIX系统中，可以用dig指令来检查部署效果。以后打开每一个网页，可以节约40ms，是不是感觉生命得到了更加充分的利用？
 
-```dig www.baidu.com @your-dns-ip```
+``` dig www.baidu.com @your-dns-ip ```
 
 你可以发现第一次差不多在40ms左右，第二次，一般就在0~10ms左右，此时的速度就取决去你服务器性能和本地局域网性能了！
 共享一下自己的***DNS:115.159.39.228 TCP&UDP***
