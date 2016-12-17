@@ -29,7 +29,7 @@ menu:
   #categories: /categories
   #about: /about
   archives: /archives
-  #tags: /tags
+  tags: /tags
   #commonweal: /404.html
 
 
@@ -242,7 +242,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: mayushengmusic
 
 # Baidu Share
 # Available value:

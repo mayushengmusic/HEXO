@@ -5,8 +5,8 @@
 # Site
 title: Mars-Blog
 subtitle: I AM BACK AGAIN
-description: this is a hexo-website
-author: jaken
+description: Free And Open
+author: mayusheng
 language: zh-Hans
 timezone: Asia/shanghai
 
@@ -74,8 +74,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 
-
-#Disqus
-disqus_shortname: mayushengmusic
 
 avatar: /image/me.png
