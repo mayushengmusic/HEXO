@@ -78,3 +78,14 @@ deploy:
 avatar: /image/me.png
 
 google_analytics: UA-89198330-1
+
+index_generator:
+   per_page: 10
+
+archive_generator:
+  per_page: 10กต
+  yearly: true พ
+  monthly: true 
+
+tag_generator:
+  per_page: 10
