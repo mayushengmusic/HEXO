@@ -1,7 +1,7 @@
 ---
 title: Boost Lib编译安装
 date: 2016-12-17 00:55:14
-tags: C++
+tags: [C++ , Linux]
 ---
 Boost是非常重要的c++库，提供各种丰富的功能。一直作为标准库的后备大营。
 boost兼容linux，mac，windows三大操作系统。
