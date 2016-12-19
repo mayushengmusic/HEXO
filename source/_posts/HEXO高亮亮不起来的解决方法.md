@@ -1,6 +1,6 @@
 ---
 title: 'HEXO高亮亮不起来的解决方法'
-date: 2016-12-19 23:41:20
+date: 2016-12-20 00:18:20
 tags: Web
 ---
 
@@ -23,9 +23,9 @@ prism_plugin:
   theme: 'default'
 ```
 
-  realtime：在加载网页的时候解析高亮代码
+  *realtime*: 在加载网页的时候解析高亮代码
   
-  preprocess: 在nodejs中预处理加载
+  *preprocess*: 在nodejs中预处理加载
   
   theme:
   
