@@ -76,3 +76,5 @@ deploy:
   type: 
 
 avatar: /image/me.png
+
+google_analytics: UA-89198330-1
