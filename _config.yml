@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: false
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
@@ -92,4 +92,4 @@ tag_generator:
 
 prism_plugin:
   mode: 'preprocess'
-  theme: 'tomorrow'
+  theme: 'default'
