@@ -91,5 +91,5 @@ tag_generator:
   per_page: 10
 
 prism_plugin:
-  mode: 'preprocess'
+  mode: 'realtime'
   theme: 'default'
