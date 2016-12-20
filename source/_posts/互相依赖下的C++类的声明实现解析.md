@@ -11,6 +11,7 @@ C++引入了成员函数友元，只定义A类中的某个成员函数做B的友
 首先，先看糅合在一个文件里面的版本。
 
 *main.c*
+
 ```cpp
 #include "APP/SpreadsheetCell.hpp"
 class A;//前置声明A
