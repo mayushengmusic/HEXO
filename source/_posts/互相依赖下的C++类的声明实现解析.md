@@ -87,8 +87,13 @@ private:
 int Number;
 };
 #endif //C_PRIMARY_A_H
+```
+
 A.h中声明B类的setBNumber方法为A的友元，因此，必须包含B.h
-A.cpp
+
+*A.cpp*
+
+```cpp
 #include "A.h"
 A::A() {
 Number = 0;
@@ -99,8 +104,13 @@ Number = x;
 int A::getANumber() {
 return Number;
 }
+```
+
 A.cpp就是A类的具体实现，这里很好理解。
-B.h
+
+*B.h*
+
+```cpp
 #ifndef C_PRIMARY_B_H
 #define C_PRIMARY_B_H
 class A;
@@ -134,11 +144,15 @@ Number->Number=x.Number;
 int B::getBNumber() {
 return Number->getANumber();
 }
+```
+
 由于B类的具体实现中，必须用到A类的方法，因此要包含A.h
 最后是main.c(测试用）
+
+```cpp
 #include "STUDY/A.h"
 #include "STUDY/B.h"
-#include
+
 using namespace std;
 auto main()->int {
 B b;
