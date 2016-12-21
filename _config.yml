@@ -92,4 +92,4 @@ tag_generator:
 
 prism_plugin:
   mode: 'preprocess'
-  theme: 'funky'
+  theme: 'tomorrow'
