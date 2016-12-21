@@ -12,7 +12,7 @@ C++引入了成员函数友元，只定义A类中的某个成员函数做B的友
 
 *main.c*
 
-```
+```cpp
 #include "APP/SpreadsheetCell.hpp"
 class A;//前置声明A
 class B{
@@ -73,7 +73,7 @@ OK，接下来，B类开始实现的时候，就可以肆无忌惮的使用A具�
 
 *A.h*
 
-```
+```cpp
 #ifndef C_PRIMARY_A_H
 #define C_PRIMARY_A_H
 #include "B.h"
@@ -119,7 +119,7 @@ A *Number;
 
 *B.cpp*
 
-```
+```cpp
 #include "A.h"
 #include "B.h"
 B::B() {
