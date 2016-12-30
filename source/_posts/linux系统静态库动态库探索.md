@@ -16,15 +16,15 @@ tags: Linux
 * 静态库
 如果是打算要生成静态库
 
-```shg++ -c person.pb.cc```
+```bashg++ -c person.pb.cc```
 然后你就能看到生成了person.pb.o,然后借助这个.o文件就可以生成静态库。
 
-```shar cr libperson.a person.pb.o
+```bashar cr libperson.a person.pb.o
 ```
 OK.到此为止，我们就可以用这个静态库，这个库里面是person.pb.h里面声明的类的实现。
 我的main.cpp调用了这个类里面的内容。
 
-```shg++ -o run main.cpp -I./ -L./ -lprotobuf -lperson通过以上命令，就可以编译了。
+```bashg++ -o run main.cpp -I./ -L./ -lprotobuf -lperson通过以上命令，就可以编译了。
 ```
 *-I* 告诉编译器把当前目录下头文件包含到编译过程中。
 *-L* 告诉编译器在当前目录下寻找库文件。
@@ -36,23 +36,23 @@ tags: Linux
 接下来我们尝试生成动态库
 第一步还是要生成.o文件，切记，为了防止失败，不要用之前生成静态库的.o文件。
 
-```shg++ -c -fpic person.pb.cc
+```bashg++ -c -fpic person.pb.cc
 ```
 接下来又会看到出现了一个新的person.pb.o文件，在执行以上命令之前，请删除原来的.o文件
 好了，我们可以通过这个文件去生成.so的动态库了。
 
-```shg++ -shared -fpic -o libperson.so person.pb.o
+```bashg++ -shared -fpic -o libperson.so person.pb.o
 ```
 好了，我们还可以借助上面的main.cpp编译方法来生成我们的动态库链接版本。
 
-```shg++ -o run main.cpp -I./ -L./ -lprotobuf -lperson
+```bashg++ -o run main.cpp -I./ -L./ -lprotobuf -lperson
 ```
 大功告成。试着运行一下，你会发现报错：
 
-```sh./run: error while loading shared libraries: libperson.so: cannot open shared object file: No such file or directory
+```bash./run: error while loading shared libraries: libperson.so: cannot open shared object file: No such file or directory
 ```
 
-```shcp libperson.so /usr/lib
+```bashcp libperson.so /usr/lib
 ```
 拷贝动态库到/usr/lib下，再次运行run就可以了。系统在运行run时，会自动到/usr/lib里面调用动态库，如果缺少动态库，当然会报错。
 对以上了解以后，才能明白./configure存在的必要，还有make、cmake这些软件存在的必要性。
