@@ -4,16 +4,16 @@ date: 2016-12-30 22:57:00
 tags: Linux
 ---
 
-很长一段时间，对linux下软件的编译，运行的一些较为深入的细节很困惑，每次在linux下编译软件，都是./configure，make, make install三部曲。伴随着输出一大堆的古怪的文本。最近研究谷歌的protobuf，看了一些资料，总算对这个过程有所了解。我们借助protobuf生成一个C++类。有关protobuf的信息请移步[Protobuf](https://developers.google.com/protocol-buffers/).
+很长一段时间，对linux下软件的编译，运行的一些较为深入的细节很困惑，每次在linux下编译软件，都是./configure，make, make install三部曲。伴随着输出一大堆的古怪的文本。最近研究谷歌的protobuf，看了一些资料，总算对这个过程有所了解。我们借助protobuf生成一个C++类。有关protobuf的信息请移步[Protobuf](https://developers.google.com/protocol-buffers/).
 
 ![Linux Tux](https://i1.piimg.com/567571/c034afc0be5d5545.jpg)
 
 <!--more-->
-当然，写这篇文章最主要的还是加深自己的印象，同时方便日后查阅！我也是学习的网络上前人的文章，但是，可能有些小问题，通过自己实践，写了这篇文章。
+当然，写这篇文章最主要的还是加深自己的印象，同时方便日后查阅！我也是学习的网络上前人的文章，但是，可能有些小问题，通过自己实践，写了这篇文章。
 首先说说静态库，所谓静态库，我的理解就是在编译过程中调用，但是，运行的时候并不需要在借助静态库，库里面可以糅合很多.o文件。动态库呢，就是运行的时候调用。
-首先，我有一个类文件，person.pb.cc person.pb.h。不管是动态库还是静态库都需要.o文件，但是生成的时候会有区别。
+首先，我有一个类文件，person.pb.cc person.pb.h。不管是动态库还是静态库都需要.o文件，但是生成的时候会有区别。
 
-* 动态库
+* 静态库
 如果是打算要生成静态库
 
 ```shg++ -c person.pb.cc```
