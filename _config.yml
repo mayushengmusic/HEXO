@@ -77,7 +77,7 @@ deploy:
 
 avatar: /image/me.png
 
-google_analytics: UA-89198330-1
+baidu_analytics: 2c16d370c2260b97be6cc56a1249452b
 
 index_generator:
    per_page: 10
