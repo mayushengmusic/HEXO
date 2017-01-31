@@ -3,13 +3,26 @@ title: about
 date: 2017-01-31 18:00:15
 ---
 
-# 作者简介
+# 个人简历
 
+## 联系方式
 
-电子科技大学计算机系统结构硕士研究生，平时的爱好就是听听音乐，写写research code。热衷C++编程,并行计算以及机器学习，坚信C++是最好的语言，人工智能时代，C++会王者归来。
+* Email: mayushengmusic@icloud.com
+* Weichat: mayushengmusic
 
-* 学习过CUDA,从入门到放弃。
+## 个人信息
 
-* 正在学习OpenCL，相信异构计算是未来趋势。
+* 本科： 南京工业大学 计算机科学与技术（软件班）
+* 硕士： 电子科技大学 计算机系统结构
+* GitHub: https://github.com/mayushengmusic
 
-* 正在学习Python，Python大法好。
+## 开源项目
+
+* [tinyspider](https://github.com/mayushengmusic/tinyspider)：一个为机器学习获取数据的高性能C++静态页面爬虫
+
+## 技能清单
+
+编程语言： C++、Python
+操作系统： Windows、Linux
+并行计算： CUDA、OpenGL、C++ STD Parallels Lib
+人工智能： Caffe
