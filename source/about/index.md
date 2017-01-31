@@ -16,7 +16,7 @@ comments: false
 
 * 本科： 南京工业大学 计算机科学与技术（软件班）
 * 硕士： 电子科技大学 计算机系统结构
-* GitHub: https://github.com/mayushengmusic
+* GitHub:  https://github.com/mayushengmusic
 
 ## 开源项目
 
