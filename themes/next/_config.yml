@@ -27,7 +27,7 @@ since: 2016
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -73,7 +73,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: ocbbd7ie0.qnssl.com
 
   # Global font settings used on <body> element.
   global:
