@@ -1,7 +1,9 @@
 ---
 title: about
 date: 2017-01-31 18:00:15
+comments: false
 ---
+
 
 # 个人简历
 
@@ -22,7 +24,11 @@ date: 2017-01-31 18:00:15
 
 ## 技能清单
 
-编程语言： C++、Python
-操作系统： Windows、Linux
-并行计算： CUDA、OpenGL、C++ STD Parallels Lib
-人工智能： Caffe
+* 编程语言： C++、Python
+* 操作系统： Windows、Linux
+* 并行计算： CUDA、OpenGL、C++ STD Parallels Lib
+* 人工智能： Caffe
+
+
+
+
