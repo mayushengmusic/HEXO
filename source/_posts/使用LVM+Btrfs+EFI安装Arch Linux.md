@@ -193,7 +193,7 @@ vim /etc/mkinitcpio.conf
 
 找到 HOOKS=”…”，在filesystems前面加上lvm2
 
-![lvm2](http://i1.piimg.com/567571/9f991e0ac14ed3dd.png)
+![lvm2](https://i1.piimg.com/567571/9f991e0ac14ed3dd.png)
 
 接下来重新设置initrd内核镜像
 
