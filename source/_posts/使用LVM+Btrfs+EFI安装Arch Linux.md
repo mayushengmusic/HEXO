@@ -8,7 +8,7 @@ tags: Linux
 
 一直感觉使用ubuntu这类开箱即用的linux系统很不灵活，每次安装完成都需要设置很多东西。安装ubuntu类似一个黑箱操作，很多东西都不透明。为了追求极致的简洁和自由，开始尝试研究安装Arch Linux,作为最优秀的元发行版。其实arch linux一直受到广泛赞誉。但是，要想安装arch linux是一件非常有挑战的事情。因此，使用arch是有耐心，爱挑战的人才可以享受的事情。
 
-<--!more-->
+<!--more-->
 
 不多说了，进入正题，首先需要制作USB-LiveCD，去archlinux官网下载[Arch linux](https://www.archlinux.org/download/)没办法FQ的小伙伴可以移步TUNA Mirror进行下载[TUNA Arch iso mirror](https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/).制作安装USB-LiveCD推荐在windows下面使用[rufus](http://rufus.akeo.ie/),rufus默认配置下制作usb盘。
 
