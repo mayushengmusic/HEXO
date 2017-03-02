@@ -94,4 +94,5 @@ prism_plugin:
   mode: 'preprocess'
   theme: 'tomorrow'
 
-skip_render: google273dac33a96e0104.html
+skip_render: 
+	- "google273dac33a96e0104.html"
