@@ -95,4 +95,4 @@ prism_plugin:
   theme: 'tomorrow'
 
 skip_render: 
-	- "google273dac33a96e0104.html"
+	- "*.html"
