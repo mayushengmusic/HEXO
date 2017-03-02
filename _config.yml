@@ -94,5 +94,4 @@ prism_plugin:
   mode: 'preprocess'
   theme: 'tomorrow'
 
-skip_render: 
-	- "*.html"
+skip_render: google/*.html
