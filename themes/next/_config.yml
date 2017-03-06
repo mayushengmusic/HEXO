@@ -73,7 +73,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host: //ocbbd7ie0.qnssl.com
+  host: //fonts.css.network
 
   # Global font settings used on <body> element.
   global:
@@ -318,7 +318,7 @@ busuanzi_count:
 # tencent_analytics:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 
 
