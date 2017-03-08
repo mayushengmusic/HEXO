@@ -96,3 +96,4 @@ prism_plugin:
   mode: 'preprocess'
   theme: 'tomorrow'
 
+baidushare: true
