@@ -97,3 +97,5 @@ prism_plugin:
   theme: 'tomorrow'
 
 
+baidushare: true
+duoshuo_share: true
