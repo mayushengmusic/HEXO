@@ -94,6 +94,6 @@ tag_generator:
 
 prism_plugin:
   mode: 'preprocess'
-  theme: 'tomorrow'
+  theme: 'default'
 
-duoshuo_share: true
+

@@ -239,7 +239,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: mayusheng
+#duoshuo_shortname: mayusheng
 
 # Disqus
 
@@ -251,8 +251,8 @@ duoshuo_shortname: mayusheng
 ##  type: button
 
 # Share
-#jiathis:
-#add_this_id:
+jiathis: true
+add_this_id: 2127154
 
 # Share
 #duoshuo_share: true
