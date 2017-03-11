@@ -245,8 +245,8 @@ mathjax:
 
 
 # Baidu Share
- Available value:
-    button | slide
+# Available value:
+#    button | slide
 baidushare: true
   type: button
 
