@@ -239,7 +239,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: mayusheng
+#duoshuo_shortname: mayusheng
 
 # Disqus
 
@@ -383,3 +383,5 @@ images: images
 
 # Theme version
 version: 5.0.1
+
+gentie_productKey: a299a20420f149299b523ec23e679b33
