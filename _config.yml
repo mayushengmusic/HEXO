@@ -96,5 +96,4 @@ prism_plugin:
   mode: 'preprocess'
   theme: 'tomorrow'
 
-jiathis: true
-
+duoshuo_share: true
