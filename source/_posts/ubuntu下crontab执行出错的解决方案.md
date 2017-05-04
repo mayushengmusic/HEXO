@@ -5,7 +5,7 @@ tags: Linux
 ---
 
 前几天在ubuntu下设置root账户的crontab，设置完成以后死活不执行，让我非常恼火。经过一番检查，发现是环境变量没有设置对，crontab需要手动设置环境变量，要不然那些什么/usr/sbin /usr/local/bin等等统统出错。
-![ubuntu](https://p1.bqimg.com/567571/9a5f4445a875c1af.png)
+
 <!--more-->
 
 要解决这个问题，其实很好办。

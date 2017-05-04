@@ -107,7 +107,7 @@ parted /dev/sda print
 创建物理卷
 
 ```sh
-pvcreate /dev/sda2
+pvcreate /dev/sda3
 ```
 
 创建卷管理组（volume group)
