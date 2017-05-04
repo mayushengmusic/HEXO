@@ -1,7 +1,7 @@
 ---
 title: 'compare_exchange_weak(strong)详解'
 date: 2017-1-10 22:00:20
-tags: Words
+tags: C++
 ---
 这段时间在学习*C++并发编程实践*，在这里要吐槽一下这本书的翻译者，翻译真是烂。我觉得译者本人很多地方自己都没理解。比如这个原子操作中很关键的一个函数compare_exchange_weak和compare_exchange_strong函数，译者就没有说清楚这个函数的本质。
 <!--more-->

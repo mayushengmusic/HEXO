@@ -1,7 +1,7 @@
 ---
 title: 'MacOS sierra 安装U盘制作指令'
 date: 2016-12-20 18:19:20
-tags: C++
+tags: MacOS
 ---
 
 APP Store下载MacOS sierra安装包以后,在终端执行以下代码:
