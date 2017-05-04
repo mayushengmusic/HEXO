@@ -10,7 +10,7 @@ comments: false
 ## 联系方式
 
 * Email: mayushengmusic@icloud.com
-* Weichat: mayushengmusic
+* Wechat: mayushengmusic
 
 ## 个人信息
 
@@ -26,7 +26,7 @@ comments: false
 
 * 编程语言： C++、Python
 * 操作系统： Windows、Linux
-* 并行计算： CUDA、OpenGL、C++ STD Parallels Lib
+* 并行计算： CUDA、OpenGL、C++11 STL Thread Lib
 * 人工智能： Caffe
 
 
