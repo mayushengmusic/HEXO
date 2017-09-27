@@ -25,7 +25,7 @@ while(!b.compare_exchange_weak(expected,true)&&!expected)
 以上代码的执行的逻辑应该是(无论strong或者weak)
 
 如果b和expected相等.那么,b会被修改为compare_exchange_weak()的第二个参数,然后函数的返回值为true.
-如果b和expected不相等,那么b会被修改为expected的值.同时函数返回为false.
+如果b和expected不相等,那么expected会被修改为b的值.同时函数返回为false.
 
 
 
