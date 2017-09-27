@@ -8,6 +8,8 @@ tags: Algorithm
 
 下一跳跨度=上一次匹配的字符个数-next[上一次最后匹配字符的index]
 
+<!--more-->
+
 * KMP
 
 ```cpp
