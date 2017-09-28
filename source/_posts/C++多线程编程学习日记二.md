@@ -61,14 +61,15 @@ int main()
 在C++中遇到读者写者问题，如果只是使用标准库的mutex互斥元会导致非常严重的性能损失。读者写者问题，读者之间并不存在竞争，对数据无需进行保护，但是，如果写者一旦有动作，就必须独占数据，所有读者不能读取，其他写者也无法写入。
 读者方面(这里只有锁定方法）
 
+该mutex在<boost/thread/shared_mutex.hpp>中。
+
 ```cpp
-#include <boost/thread/shared_mutex.hpp>
 std::shared_mutex s_mutex;
 boost::shared_lock<boost::shared_mutex> lk(s_mutex);
 //读者
 std::lock_guard<boost::shared_mutex> lk(s_mutex);
 //写者
-``` 
+```
 
 * 线程安全队列的实现
 
