@@ -79,6 +79,7 @@ std::lock_guard<boost::shared_mutex> lk(s_mutex);
 
 在线程安全队列的实现，我们采用C++11的条件变量来实现堵塞模式。实现代码如下：
 
+
 ```cpp
 #include <mutex>
 #include <iostream>
@@ -187,6 +188,7 @@ int main()
     return 0;
 }
 ```
+
 条件变量 *data_cond.notify_one()*，可以尝试唤醒等待进程队列中的进程，从而进行队列中的数据处理。
 
 ```cpp

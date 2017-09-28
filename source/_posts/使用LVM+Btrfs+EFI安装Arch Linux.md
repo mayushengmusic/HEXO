@@ -14,7 +14,6 @@ tags: Linux
 
 设置需要安装arch的电脑BIOS，引导选择为UEFI，关闭security Boot.插入USB-LiveCD，从该USB盘启动系统。
 
-![arch boot](https://i1.piimg.com/567571/8adc9c5f8baeade5.png)
 
 稍等片刻会进入linux shell。大arch就是这么傲娇，直接给一个shell环境，接下来自己动手解决安装问题。
 
@@ -193,7 +192,6 @@ vim /etc/mkinitcpio.conf
 
 找到 HOOKS=”…”，在filesystems前面加上lvm2
 
-![lvm2](https://i1.piimg.com/567571/9f991e0ac14ed3dd.png)
 
 接下来重新设置initrd内核镜像
 
