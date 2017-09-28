@@ -62,7 +62,7 @@ int main()
 读者方面(这里只有锁定方法）
 
 
-```cpp
+```c++
 //created by mayusheng
 #include <boost/thread/shared_mutex.hpp>
 std::shared_mutex s_mutex;
