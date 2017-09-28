@@ -65,12 +65,9 @@ int main()
 #include <boost/thread/shared_mutex.hpp>
 std::shared_mutex s_mutex;
 boost::shared_lock<boost::shared_mutex> lk(s_mutex);
-```
-
-写者方面(同上）
-
-```cpp
+//读者
 std::lock_guard<boost::shared_mutex> lk(s_mutex);
+//写者
 ``` 
 
 * 线程安全队列的实现
