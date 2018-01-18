@@ -83,11 +83,12 @@ std::list<int> Dijkstra(std::vector<std::vector<int>> &mat,int start,int end){
             {
                 Dis[i]=std::min(Dis[i],Dis[node]+mat[node][i]);
                 if(Dis[i]==Dis[node]+mat[node][i])
-                    lastCross[i]=node;//记录最后一次更新Dis依赖的节点，可以得到路线
+                    lastCross[i]=node;//记录最后一次更新Dis依赖的节点，可以得到路线		
+                    if(isVisit[i]==false)
+                			insertHead(i,Dis);
             }
 
-            if(isVisit[i]==false)
-                insertHead(i,Dis);
+            
 
         }
 
